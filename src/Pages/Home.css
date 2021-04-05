@@ -1,0 +1,62 @@
+.service-img {
+  width: 100%;
+}
+.WhoWeAre {
+  min-height: 60vh;
+}
+.halfpara {
+  max-width: 50vw;
+}
+.textONimg {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 70%;
+}
+.imgBgdiv {
+  min-height: 60vh;
+}
+
+#msgFounder {
+  width: 70%;
+}
+
+.project-img:hover img {
+  opacity: 0.3;
+}
+
+.project-text {
+  background-color: #24ade3;
+}
+
+.clients-slider {
+  animation: slide 30s linear 800ms 10000;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(calc(-122px * 1.5));
+  }
+  50% {
+    transform: translateX(calc(-122px * 3));
+  }
+  75% {
+    transform: translateX(calc(-122px * 1.5));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #msgFounder {
+    width: 100%;
+  }
+  .halfpara {
+    max-width: 100vw;
+  }
+  .imgBgdiv {
+    min-height: 30vh;
+  }
+}

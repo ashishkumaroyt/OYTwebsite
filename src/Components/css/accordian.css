@@ -1,0 +1,8 @@
+.accordion-button {
+  background-color: #000;
+  color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #24ade3;
+  color: #000;
+}

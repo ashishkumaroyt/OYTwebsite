@@ -1,0 +1,22 @@
+#container-div {
+  position: relative;
+}
+#left-slide-btn,
+#right-slide-btn {
+  background-color: #24ade3ad;
+  color: #fff;
+  font-size: 2em;
+  border: none;
+  position: absolute;
+  top: 40%;
+}
+#slide-div {
+  overflow-x: hidden;
+  left: 5;
+}
+#left-slide-btn {
+  left: 0;
+}
+#right-slide-btn {
+  right: 0;
+}

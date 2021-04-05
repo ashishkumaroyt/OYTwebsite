@@ -1,0 +1,6 @@
+@media only screen and (max-width: 562px) {
+  .video-embeded {
+    width: auto;
+    height: auto;
+  }
+}

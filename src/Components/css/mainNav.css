@@ -1,0 +1,46 @@
+.links:hover {
+  background-color: #212529cb;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
+.img-oyt {
+  max-width: 100%;
+}
+#brand-img-mini {
+  max-width: 5%;
+  transition-duration: 2s;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition-duration: 2s;
+}
+
+.brand-logo-show {
+  max-width: 30%;
+  display: block;
+}
+.brand-logo-hide {
+  display: none;
+}
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown-menu {
+    background-color: #24ade3a4;
+  }
+  .navbar-nav {
+    min-height: 100vh;
+    padding: 4em 0;
+    align-items: center;
+    background-color: #24ade3a4;
+  }
+  .nav-link {
+    padding: 2em 0;
+  }
+  #brand-img-mini {
+    max-width: 10%;
+  }
+}

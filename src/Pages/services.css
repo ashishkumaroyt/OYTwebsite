@@ -1,0 +1,25 @@
+#service-main-div {
+  background: #24ade3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #000,
+    #24ade3,
+    #fff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #000,
+    #24ade3,
+    #fff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-divs {
+  width: 50%;
+}
+
+@media only screen and (max-width: 562px) {
+  .card-divs {
+    width: 100%;
+  }
+}
