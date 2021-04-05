@@ -78,6 +78,10 @@ function Footer() {
                 sMedia="linkedin"
                 link="https://www.linkedin.com/in/oxymora-technology-9ab649165/"
               />
+              <SocialMediaIcons
+                sMedia="instagram"
+                link="https://www.instagram.com/oxymoratechnology/?hl=en"
+              />
             </div>
           </div>
         </div>
