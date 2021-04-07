@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
-import bgVideo from "../Images/About.mp4";
+import bgVideo from "../videos/About.mp4";
 import "./css/videoBg.css";
 import SocialMediaIcons from "./socialIcons";
 
