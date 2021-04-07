@@ -12,7 +12,9 @@ function VideoBgSection() {
   return (
     <React.Fragment>
       <div className="d-flex justify-content-center text-center videoBg-div">
-        <video src={bgVideo} autoPlay muted loop className="ms-auto"></video>
+        <video autoPlay muted loop className="ms-auto">
+          <source src={bgVideo} />
+        </video>
         <div className="text-on-video text-white">
           <h1 className="my-3">About Us</h1>
           <h2 className="">
