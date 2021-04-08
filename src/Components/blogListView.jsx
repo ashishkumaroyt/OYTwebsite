@@ -16,7 +16,7 @@ class BlogList extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     axios
-      .get("http://13.233.179.209:8000/api-blog/")
+      .get("https://13.233.179.209/api-blog/")
       .then((res) => {
         this.setState({
           blogsList: res.data,
