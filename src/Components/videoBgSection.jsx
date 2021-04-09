@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import CountUp from "react-countup";
-import bgVideo from "./videos/About.mp4";
+import bgVideo from "../Images/aboutBanner.png";
 import "./css/videoBg.css";
 import SocialMediaIcons from "./socialIcons";
 
@@ -12,9 +12,10 @@ function VideoBgSection() {
   return (
     <React.Fragment>
       <div className="d-flex justify-content-center text-center videoBg-div">
-        <video autoPlay muted loop className="ms-auto bg-dark">
-          <source src={bgVideo} type="video/mp4" />
-        </video>
+        {/* <video autoPlay muted loop className="ms-auto bg-dark">
+          <source src={bgVideo} type="video/mp4" /> */}
+        <img src={bgVideo} alt="" />
+        {/* </video> */}
         <div className="text-on-video text-white">
           <h1 className="my-3">About Us</h1>
           <h2 className="">
@@ -23,7 +24,7 @@ function VideoBgSection() {
               OxYmora Technology Pvt. Ltd.
             </span>
           </h2>
-          <div className="d-sm-flex justify-content-between my-5">
+          <div className="d-sm-flex justify-content-between my-5 contaier">
             <div className="text-center mx-5">
               <SocialMediaIcons sMedia="briefcase-fill fs-2" />
               <p className="my-3 fs-2">
