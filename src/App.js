@@ -18,6 +18,7 @@ import IdeationPage from "./Pages/IdeationPage";
 import IndustryVisit from "./Pages/Industry_visit.js";
 import PCBDesignPage from "./Pages/PCBDesign";
 import PortfolioPage from "./Pages/PortfolioPage";
+import privacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           component={JobApplicationForm}
         />
         <Route exact path="/Portfolio" component={PortfolioPage} />
+        <Route exact path="/Privacy-policy" component={privacyPolicy} />
 
         <Route component={NotFound} />
       </Switch>
