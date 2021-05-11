@@ -13,7 +13,10 @@ const SmallNav = () => {
             sMedia="facebook"
             link="https://www.facebook.com/OxYmoraTechnology"
           />
-          <SocialMediaIcons sMedia="twitter" link="" />
+          <SocialMediaIcons
+            sMedia="twitter"
+            link="https://twitter.com/oxymorat"
+          />
           <SocialMediaIcons
             sMedia="youtube"
             link="https://www.youtube.com/channel/UCJ_7bpC5O8l1fOqlc-DcbDg"
