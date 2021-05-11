@@ -3,18 +3,18 @@ import ContentList from "./footerContentList";
 import QueryForm from "./queryForm";
 import SocialMediaIcons from "./socialIcons.jsx";
 import logoImg from "../Images/logo.png";
+import "./css/footer.css";
 
 function Footer() {
   const news = ["The office is shifted @ Pratap Nagar, Jaipur."];
   return (
     <div className="bg-dark text-white py-5">
       <div className="container-md d-lg-flex justify-content-center">
-        <div style={{ width: "30%" }} className="mx-3">
+        <div className="mx-3 footerinfo-div">
           <img
             src={logoImg}
             alt="OYTechnology Pvt. Ltd."
-            style={{ width: "20%" }}
-            className="mb-3"
+            className="mb-3 footerlogo"
           />
           <p className="m-0">
             <SocialMediaIcons sMedia="house" />
@@ -50,7 +50,7 @@ function Footer() {
             content={["Home", "About Us", "Services", "Career", "Blogs"]}
             links={["/", "/aboutUs", "/ourServices", "/careers", "/blogs"]}
           />
-          <div>
+          <div className="my-4 my-lg-0">
             <h5>
               Ask Here <SocialMediaIcons sMedia="arrow-bar-down" />
             </h5>
@@ -88,7 +88,7 @@ function Footer() {
       </div>
       <hr />
       <small className="d-flex justify-content-center">
-        copyright ©2020 OxYmora Technology Pvt. Ltd. - All Rights Reserved
+        © 2020 OxYmora Technology Pvt. Ltd. - All Rights Reserved
       </small>
     </div>
   );

@@ -1,12 +1,12 @@
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 100px;
-  width: 100px;
+.footerlogo {
+  width: 20%;
 }
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 100px;
-  width: 100px;
+.footerinfo-div {
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerinfo-div {
+    width: 100%;
+  }
 }
