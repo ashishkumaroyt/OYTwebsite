@@ -47,20 +47,20 @@ class IdeaSubmission extends Component {
           className="d-md-flex flex-column align-items-center py-5"
         >
           <label className="p-2">
-            <strong>Name</strong>:{" "}
+            <strong className="text-dark">Name</strong>:{" "}
             <input type="text" name="username" className="px-2" />
           </label>
           <label className="p-2">
-            <strong>Email Id</strong>:{" "}
+            <strong className="text-dark">Email Id</strong>:{" "}
             <input type="email" name="emailid" className="px-2" />
           </label>
           <label className="p-2">
-            <strong>Contact</strong>:{" "}
+            <strong className="text-dark">Contact</strong>:{" "}
             <input type="text" name="contact" className="px-2" />
           </label>
           <label className="p-2">
             <div className="text-center">
-              <strong>Idea</strong>:
+              <strong className="text-dark">Idea</strong>:
             </div>
             <textarea
               name="ideaContent"
