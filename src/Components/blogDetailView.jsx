@@ -14,7 +14,7 @@ class BlogDetail extends Component {
     window.scrollTo(0, 0);
     const blogId = this.props.match.params.blogId;
     axios
-      .get(`https://api.oytechnology.com/api-blog/${blogId}`)
+      .get(`https://api.oytechnology.com/${blogId}`)
       .then((res) => {
         this.setState({
           blog: res.data,
