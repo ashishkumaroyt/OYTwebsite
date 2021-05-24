@@ -15,11 +15,7 @@ function QueryForm() {
         query: query,
       })
       .then((res) => {
-        alert(
-          res.statusText === "Created"
-            ? "Your query is Submitted. We will soon revert back to you."
-            : "Please, Try again later!!"
-        );
+        alert("Your query is Submitted. We will soon revert back to you.");
         console.log(res);
       })
       .catch((err) => {
