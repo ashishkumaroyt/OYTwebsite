@@ -45,7 +45,7 @@ class Home extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     axios
-      .get("http://13.233.179.209:8000/api-blog/Projects")
+      .get("https://api.oytechnology.com/Projects")
       .then((res) => {
         console.log(res.data);
         this.setState({

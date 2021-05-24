@@ -9,7 +9,7 @@ function QueryForm() {
     const contact = e.target.elements.contact.value;
     const query = e.target.elements.query.value;
     axios
-      .post("http://13.233.179.209:8000/api-blog/query/", {
+      .post("https://api.oytechnology.com/query/", {
         name: name,
         contact: contact,
         query: query,

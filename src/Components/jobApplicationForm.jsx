@@ -24,7 +24,7 @@ class JobApplicationForm extends Component {
     form_data.append("resume_cv", resume_cv);
 
     axios
-      .post("http://13.233.179.209:8000/api-blog/jobApply/", form_data, {
+      .post("https://api.oytechnology.com/jobApply/", form_data, {
         headers: {
           "content-type": "multipart/form-data",
         },

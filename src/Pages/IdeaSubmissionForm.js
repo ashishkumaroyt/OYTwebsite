@@ -17,7 +17,7 @@ class IdeaSubmission extends Component {
     const contact_no = e.target.elements.contact.value;
     const idea_content = e.target.elements.ideaContent.value;
     axios
-      .post("http://13.233.179.209:8000/api-blog/ideas/", {
+      .post("https://api.oytechnology.com/ideas/", {
         name: name,
         email_id: email_id,
         contact_no: contact_no,
