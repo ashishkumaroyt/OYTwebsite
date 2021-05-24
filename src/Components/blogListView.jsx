@@ -16,7 +16,7 @@ class BlogList extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     axios
-      .get("https://api.oytechnology.com/")
+      .get("https://api.oytechnology.com/blog/")
       .then((res) => {
         this.setState({
           blogsList: res.data,
